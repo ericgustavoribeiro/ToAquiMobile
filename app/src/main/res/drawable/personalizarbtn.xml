@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Forma-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Contorno-->
+    <stroke android:width="0dp" android:color="@color/colorPrimary" android:radius="0dp" />
+    <!--Background sólido-->
+    <solid android:color="#dcdcdc"/>
+    <!--Radius-->
+    <corners android:radius="0dp"/>
+</shape>

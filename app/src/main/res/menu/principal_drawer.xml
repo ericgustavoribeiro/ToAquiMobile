@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Perfil" android:id="@+id/Teste">
+        <menu>
+            <item
+                android:id="@+id/minhaConta"
+                android:icon="@drawable/ic_person_black_18dp"
+                android:title="Minha Conta" />
+
+            <item
+                android:id="@+id/meusEstabelecimentos"
+                android:icon="@drawable/ic_my_location_black_18dp"
+                android:title="Meus Estabelecimentos" />
+
+            <item
+                android:id="@+id/meusEventos"
+                android:icon="@drawable/ic_event_black_18dp"
+                android:title="Meus Eventos" />
+            <item
+                android:id="@+id/MenuCadastreEstabele"
+                android:icon="@drawable/ic_add_black_18dp"
+                android:title="Cadastrar Estabelecimentos" />
+            <item
+                android:id="@+id/MenuCadastreEvento"
+                android:icon="@drawable/ic_add_black_18dp"
+                android:title="Cadastrar Eventos"/>
+            <item
+                android:id="@+id/MenuSair"
+                android:icon="@drawable/ic_close_black_18dp"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="Categorias">
+        <menu>
+            <item
+                android:id="@+id/MenuBares"
+                android:icon="@drawable/ic_local_bar_black_48dp"
+                android:title="Bares" />
+            <item
+                android:id="@+id/MenuHotel"
+                android:icon="@drawable/ic_hotel_black_48dp"
+                android:title="Hoteis" />
+
+            <item
+                android:id="@+id/MenuRestaurantes"
+                android:icon="@drawable/ic_restaurant_black_48dp"
+                android:title="Restaurantes" />
+
+            <item
+                android:id="@+id/MenuEventos"
+                android:icon="@drawable/ic_event_black_18dp"
+                android:title="Eventos" />
+        </menu>
+    </item>
+
+
+
+
+</menu>

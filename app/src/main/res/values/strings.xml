@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ToAqui</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_tela_login">#ToAqui - Login</string>
+    <string name="title_activity_tela_cadastro_estabelecimento">#ToAqui - Cadastro Estabelecimento</string>
+    <string name="title_activity_tela_cadastrar_evento">#ToAqui - Cadastrar Evento</string>
+    <string name="title_activity_tela_casdastro_usuaro">#ToAqui - Cadastro</string>
+    <string name="title_activity_tela_remover_estabelecimento">#ToAqui - Remover</string>
+    <string name="title_activity_tela_remover_evento">#ToAqui - Remover</string>
+    <string name="title_activity_tela_alterar_usuario">#ToAqui - Alterar Usuario</string>
+    <string name="title_activity_tela_resultado_estab">#ToAqui - Estabelecimento</string>
+    <string name="title_activity_tela_resultado_evento">#ToAqui - Evento</string>
+    <string name="title_activity_tela_listar_restaurante">#ToAqui - Restaurantes</string>
+    <string name="title_activity_tela_listar_bar">#ToAqui - Bares</string>
+    <string name="title_activity_tela_listar_hotel">#ToAqui - Hoteis</string>
+    <string name="title_activity_tela_listar_evento">#ToAqui - Eventos</string>
+    <string name="title_activity_tela_meus_estab">#ToAqui - Meus Estabelecimentos</string>
+    <string name="title_activity_tela_meus_eventos">#ToAqui - Meus Eventos</string>
+    <string name="title_activity_tela_sair">#ToAqui - Sair</string>
+    <string name="title_activity_tela_remover_usuario">#ToAqui - Remover</string>
+    <string-array name="categoria">
+        <item>Bar</item>
+        <item>Restaurante</item>
+        <item>Hotel</item>
+    </string-array>
+    <string name="title_activity_tela_alterar_estab">#ToAqui - Alterar</string>
+    <string name="title_activity_remover_estab">#ToAqui - Remover</string>
+    <string name="title_activity_remover_evento">#ToAqui - Remover</string>
+    <string name="title_activity_tela_avaliacao">#ToAqui - Avaliações</string>
+    <string name="title_activity_cadastro_avaliacao">#ToAqui - Avaliações</string>
+    <string name="title_activity_tela_alterar_avaliacao">#ToAqui - Avaliações</string>
+    <string name="title_activity_remover_avaliacao">#ToAqui - Avaliações</string>
+    <string name="title_activity_nao__logado_">Nao_Logado_Activity</string>
+</resources>

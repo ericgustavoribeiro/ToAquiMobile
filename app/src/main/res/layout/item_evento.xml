@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgEvento"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/txtNomeEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imgEvento"
+        android:layout_marginLeft="4dp"
+        android:text="@null"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtLocalEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@null"
+        android:layout_below="@+id/txtNomeEvento"
+        android:layout_alignLeft="@+id/txtNomeEvento"
+        android:layout_alignStart="@+id/txtNomeEvento"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/txtDataEvento"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@null"
+        android:layout_below="@+id/txtNomeEvento"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp" />
+
+
+
+
+</RelativeLayout>

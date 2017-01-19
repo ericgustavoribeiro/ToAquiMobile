@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ejt.toaquimobile.TelaAlterarUsuario"
+    tools:showIn="@layout/activity_tela_alterar_usuario">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario :"
+        android:textColor="#ffffff"
+        android:id="@+id/txtUserAlterar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="  Digite novo nome"
+        android:id="@+id/editTextNomeAlterar"
+        android:background="@drawable/personalizar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtUserAlterar"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/editTextSenhaAlterar"
+        android:inputType="textPassword"
+        android:hint="  Digite nova senha"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/personalizar"
+        android:layout_alignRight="@+id/editTextNomeAlterar"
+        android:layout_alignEnd="@+id/editTextNomeAlterar"
+        android:layout_below="@+id/editTextNomeAlterar"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/editTextConfSenhaAlterar"
+        android:inputType="textPassword"
+        android:hint="  Confirme nova senha"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/personalizar"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editTextSenhaAlterar"
+        android:layout_alignEnd="@+id/editTextSenhaAlterar"
+        android:layout_below="@+id/editTextSenhaAlterar"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar"
+        android:id="@+id/buttonAlterarUser"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/editTextConfSenhaAlterar"
+        android:layout_alignRight="@+id/txtUserAlterar"
+        android:layout_alignEnd="@+id/txtUserAlterar"
+        android:layout_marginRight="-15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover"
+        android:id="@+id/buttonRemoverUser"
+        android:layout_alignTop="@+id/buttonAlterarUser"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginEnd="54dp" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXTO 1"
+
+        android:id="@+id/textViewNomeAvaliacao"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewN"
+        android:layout_toEndOf="@+id/textViewN" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEXTO 2"
+        android:id="@+id/textViewNotaAVALIACAO"
+        android:textSize="30dp"
+        android:layout_below="@+id/textViewNomeAvaliacao"
+        android:layout_toRightOf="@+id/textViewN"
+        android:layout_toEndOf="@+id/textViewN" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:id="@+id/textViewN"
+        android:textSize="30dp"
+        android:layout_above="@+id/textViewNotaAVALIACAO"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota : "
+        android:id="@+id/text1212121"
+        android:textSize="30dp"
+        android:layout_below="@+id/textViewN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/editTextDescAvaliacao"
+        android:layout_weight="0.12"
+        android:hint="Descricao : "
+        android:layout_below="@+id/textViewNomeAvaliacao"
+        android:layout_marginTop="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="433dp"
+        android:layout_marginStart="433dp"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/relativeLayout"></RelativeLayout>
+
+</RelativeLayout>

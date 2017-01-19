@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ejt.toaquimobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/portal_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCIGsw1FcPexnJAVa8Qosl9wL_9OpGda8w" />
+        <meta-data
+            android:name="com.google.android.gms.vision"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".PrincipalActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TelaLogin"
+            android:label="@string/title_activity_tela_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaCadastroEstabelecimento"
+            android:label="@string/title_activity_tela_cadastro_estabelecimento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaCadastrarEvento"
+            android:label="@string/title_activity_tela_cadastrar_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaCasdastroUsuario"
+            android:label="@string/title_activity_tela_casdastro_usuaro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaRemoverEstabelecimento"
+            android:label="@string/title_activity_tela_remover_estabelecimento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaRemoverEvento"
+            android:label="@string/title_activity_tela_remover_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaAlterarUsuario"
+            android:label="@string/title_activity_tela_alterar_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaResultadoEstab"
+            android:label="@string/title_activity_tela_resultado_estab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaResultadoEvento"
+            android:label="@string/title_activity_tela_resultado_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaListarRestaurante"
+            android:label="@string/title_activity_tela_listar_restaurante"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaListarBar"
+            android:label="@string/title_activity_tela_listar_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaListarHotel"
+            android:label="@string/title_activity_tela_listar_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaListarEvento"
+            android:label="@string/title_activity_tela_listar_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaMeusEstab"
+            android:label="@string/title_activity_tela_meus_estab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaMeusEventos"
+            android:label="@string/title_activity_tela_meus_eventos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaSair"
+            android:label="@string/title_activity_tela_sair"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaRemoverUsuarioActivity"
+            android:label="@string/title_activity_tela_remover_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemoverEstabActivity"
+            android:label="@string/title_activity_remover_estab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemoverEventoActivity"
+            android:label="@string/title_activity_remover_evento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaAvaliacaoActivity"
+            android:label="@string/title_activity_tela_avaliacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CadastroAvaliacaoActivity"
+            android:label="@string/title_activity_cadastro_avaliacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaAlterarAvaliacaoActivity"
+            android:label="@string/title_activity_tela_alterar_avaliacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RemoverAvaliacaoActivity"
+            android:label="@string/title_activity_remover_avaliacao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nao_Logado_Activity"
+            android:label="@string/title_activity_nao__logado_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
